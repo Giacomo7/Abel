@@ -17309,7 +17309,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, " @font-face {\n   font-family: 'Faster One', cursive;\n\n   src:  url(" + escape(__webpack_require__(8)) + ") format('ttf');\n   font-weight: 600;\n   font-style: normal;\n }\n\nbody{\n    font-family: 'Faster One', cursive;\n}\n\n.hello {\n  color: red;\n}\n", ""]);
+exports.push([module.i, " @font-face {\n   font-family: 'Faster One';\n   src:  url(" + escape(__webpack_require__(8)) + ") format('truetype');\n   font-weight: 600;\n   font-style: normal;\n }\n\nbody{\n    font-family: 'Faster One';\n    color: blue;\n}\n\n.hello {\n  color: red;\n}\n", ""]);
 
 // exports
 
