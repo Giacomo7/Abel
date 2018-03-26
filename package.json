@@ -1,0 +1,27 @@
+{
+  "name": "abel",
+  "version": "1.0.0",
+  "description": "Abel allows you to modify your site with one click! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giacomo7/Abel.git"
+  },
+  "author": "Giacomo Cardella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giacomo7/Abel/issues"
+  },
+  "homepage": "https://github.com/Giacomo7/Abel#readme",
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
