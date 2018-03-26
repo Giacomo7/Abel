@@ -1,0 +1,15 @@
+ @font-face {
+   font-family: 'Faster One', cursive;
+
+   src:  url('./font/FasterOne-Regular.ttf') format('ttf');
+   font-weight: 600;
+   font-style: normal;
+ }
+
+body{
+    font-family: 'Faster One', cursive;
+}
+
+.hello {
+  color: red;
+}
