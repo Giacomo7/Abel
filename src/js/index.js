@@ -1,17 +1,18 @@
 import _ from 'lodash';
-import '../scss/style.css';
 import printMe from './print.js'
+//import "../../dist/styles.css";
 
 function component() {
   var element = document.createElement('div');
-  //var button = createElement('button');
+  var button = document.createElement('button');
 
-  //button.innerHTML = 'Click me and check the console';
-  //button.onclick = printMe;
+  button.innerHTML = 'Click me and check the console';
+  button.onclick = printMe;
   // Lodash, now imported by this script
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('hello');
 
+  element.appendChild(button);
   return element;
 }
 

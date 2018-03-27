@@ -1,15 +1,14 @@
- @font-face {
+/* @font-face {
    font-family: 'Faster One';
    src:  url("../font/FasterOne-Regular.ttf") format('truetype');
    font-weight: 600;
    font-style: normal;
- }
+ }*/
 
 body{
-    font-family: 'Faster One';
-    color: blue;
+  font-family: 'Faster One';
+  color: blue;
 }
-
 .hello {
-  color: red;
+  color: yellow;
 }
