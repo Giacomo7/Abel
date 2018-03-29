@@ -17,7 +17,8 @@ let cleanOptions = {
 module.exports = {
   entry: {
     app: './src/js/index.js',
-    print: './src/js/print.js'
+    print: './src/js/print.js',
+    scss: './src/scss/style.scss'
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -46,13 +47,14 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
-          fallback: "style-loader",
-          use: "sass-loader"
-        }),
+          use: ['css-loader', 'sass-loader']
+        })
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin("styles.css"),
+    new ExtractTextPlugin({
+      filename: 'style.css'
+    }),
   ]
 };
