@@ -18,7 +18,7 @@ module.exports = {
   entry: {
     app: './src/js/index.js',
     print: './src/js/print.js',
-    scss: './src/scss/style.scss'
+    scss: './src/scss/style.scss',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -47,6 +47,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
           use: ['css-loader', 'sass-loader']
         })
       }

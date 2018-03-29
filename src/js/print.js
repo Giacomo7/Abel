@@ -1,3 +1,3 @@
 export default function printMe(){
-  console.log("NO!sss");
+  alert("NO!sss");
 }

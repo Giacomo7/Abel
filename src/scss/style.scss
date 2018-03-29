@@ -1,5 +1,16 @@
+ @font-face {
+   font-family: 'Faster One';
+   src:  url("../font/FasterOne-Regular.ttf") format('truetype');
+   font-weight: 600;
+   font-style: normal;
+ }
+
 body{
-  div{
+  font-family: 'Faster One';
+  color: blue;
+  text-align: center;
+  .hello {
     color: red;
+    font-size: 25px;
   }
 }
