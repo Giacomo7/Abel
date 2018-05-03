@@ -9,3 +9,7 @@ git checkout -b BRANCH_NAME
 
 // PER IL PUSH
 git push -u origin BRANCH_NAME
+
+// PER IL MERGE
+git checkout master
+git merge BRANCH_NAME
