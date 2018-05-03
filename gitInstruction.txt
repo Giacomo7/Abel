@@ -1,6 +1,11 @@
 // PER VEDERE L'ELENCO DEI BRANCH
 git branch 
 
+// PER PASSARE AL MASTER
+git checkout master
+
 // PER CREARE IL NUOVO BRANCH
 git checkout -b BRANCH_NAME
 
+// PER IL PUSH
+git push -u origin BRANCH_NAME
