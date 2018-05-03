@@ -1,0 +1,6 @@
+// PER VEDERE L'ELENCO DEI BRANCH
+git branch 
+
+// PER CREARE IL NUOVO BRANCH
+git checkout -b BRANCH_NAME
+
