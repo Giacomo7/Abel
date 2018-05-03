@@ -11,5 +11,6 @@ git checkout -b BRANCH_NAME
 git push -u origin BRANCH_NAME
 
 // PER IL MERGE
+git status
 git checkout master
 git merge BRANCH_NAME
